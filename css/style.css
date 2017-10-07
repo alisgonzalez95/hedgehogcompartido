@@ -119,6 +119,30 @@ Section Text:       15px/1.7 "Open Sans", arial, sans-serif;
     top: 0;
     left: 0;
 }
+
+.botonblanco {
+  background-color: #ffffff !important;
+}
+
+.containercate{
+      max-width: 100%;
+      max-height: auto;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: top center;
+}
+
+.media {
+  max-width:900px;
+  min-width: 900px;
+  max-height: 900px;
+  min-height: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+
+}
+
 .indexblog{
   padding:35px 0 !important;
 }
@@ -127,6 +151,8 @@ Section Text:       15px/1.7 "Open Sans", arial, sans-serif;
     -moz-border-radius: 2px !important;
     border-radius: 2px !important;
 }
+
+
 
 ::-moz-selection{ color: #fff; background:#000; }
 ::-webkit-selection{ color: #fff;    background:#000; }
@@ -147,11 +173,18 @@ Section Text:       15px/1.7 "Open Sans", arial, sans-serif;
     transition:0 none !important;
 }
 
+
 .shadow{
     -webkit-box-shadow: 0px 3px 50px rgba(0, 0, 0, .15);
     -moz-box-shadow: 0px 3px 50px rgba(0, 0, 0, .15);
     box-shadow: 0px 3px 50px rgba(0, 0, 0, .15);
 }
+.tabla{
+  position: relative;
+  display:table;
+
+}
+
 .white-shadow{
     -webkit-box-shadow: 0px 0px 200px rgba(255, 255, 255, .2);
     -moz-box-shadow: 0px 0px 200px rgba(255, 255, 255, .2);
@@ -2368,7 +2401,7 @@ a.logo:hover{
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 
-    padding: 140px 0;
+    padding: 50px 0;
 }
 .small-section{
     padding: 70px 0;
@@ -3365,7 +3398,7 @@ a.logo:hover{
 }
 .work-item a,
 .work-item a:hover{
-    color: #111;
+    color:white;
     border: none;
 }
 .work-img{
